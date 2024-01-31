@@ -18,7 +18,6 @@ let WPP: WPPType | undefined;
 const WebpageMessageManager = new AsyncChromeMessageManager('webpage');
 
 async function sendWPPMessage({ contact, message, attachment, buttons = [] }: Message) {
-
     if (attachment && buttons.length > 0) {
         const response = await fetch(attachment.url.toString());
         const data = await response.blob();
