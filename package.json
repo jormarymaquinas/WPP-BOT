@@ -1,6 +1,6 @@
 {
   "name": "wtf",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "description": "WTF Chrome Extension that allows you to send messages in bulk via WhatsApp™ Web",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "url": "git+https://github.com/marcosvrs/wtf.git"
   },
   "dependencies": {
-    "@wppconnect/wa-js": "^2.28.0",
+    "@wppconnect/wa-js": "^2.28.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
